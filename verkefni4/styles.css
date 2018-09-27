@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+
+  }
+  
+
+  body {
+    background-color: #333;
+    color: #ddd;
+  }
+
+  header {
+      background: url(img/trees.jpg) 50% 50%;
+      background-size: cover;
+      background-attachment: fixed;
+
+      width: 100%;
+      height: 100vh;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+
+      padding-top: 20vh;
+      font-family: 'IM Fell DW Pica',serif;
+      color: #333;
+
+  }
+
+  h1{
+      font-size: 10vmin;
+      margin-bottom: 1rem;
+      margin: 0 auto;
+      text-align: center;
+      padding-left: 1em;
+      padding-right: 1em;
+
+  }
+
+  header h2{
+      margin: 0 auto;
+      text-align: center;
+      font-size: 5vmin;
+      margin-bottom: 1rem;
+      padding-left: 1em;
+      padding-right: 1em;
+  }
+
+  header p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5vmin;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .protection {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  blockquote{
+      font-family: 'Merriweather 400 italic', serif;
+      font-style: italic;
+      margin-bottom: 2rem;
+      font-size: 1rem;
+      line-height: 2rem;
+      text-align: right;
+      margin-right: 4em;
+  }
+  blockquote cite{
+      font-style: initial;
+      font-variant-caps: all-petite-caps;
+  }
+
+.content{
+    max-width: 50em;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+section p:first-of-type:first-letter {
+    float: left;
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 1;
+    padding-right: 0.1em;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.seperator {
+    background: url(img/trees.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    border: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 20vh;
+}
+
+.seperator-one {
+    background: url(img/tree-fog.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seperator-two {
+    background: url(img/castle.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seperator-three {
+    background: url(img/hands.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seperator-four {
+    background: url(img/moon.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content p + p {
+    text-indent: 2em;
+}
+
+.ps{
+    background: url(img/trees.jpg) 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    padding-top: 20vh;
+    font-family: 'IM Fell DW Pica',serif;
+    color: #333;
+    
+}
+.ps h2{
+    font-size: 10vmin;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-variant-caps: all-petite-caps;
+}
+
+.ps p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5vmin;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 1rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3rem;
+}
+
+footer{
+    color: #333;
+    background-color: #ddd;
+    padding: 1em;
+    margin: 0 auto;
+}
+footer p{
+    margin: .5em auto;
+}
+
+footer a:link{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer ul{
+    padding-bottom: 1em;
+    list-style-type: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.foot-width{
+    max-width: 50em;
+}
